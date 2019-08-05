@@ -1,0 +1,261 @@
+button:focus {outline:0;}
+input:focus{outline:0;}
+
+
+.fb-btn {
+	background: url("../fb.png");
+	display: block;
+}
+
+
+#player.minimize .player {
+	top: -105px;
+}
+
+#volume{
+	position: absolute;
+	top: 90px;
+	left: 10px;
+}
+
+#pedidos-btn {
+	position: absolute;
+	top: 70px;
+	left: 170px;
+	display: block;
+	border-radius: 5px;
+	background-color: #333;
+	color: #fff;
+	height: 25px;
+	border: none;
+}
+
+#pedidos-btn:hover{
+	background-color: #696969; 
+}
+
+#presenca-btn {
+	position: absolute;
+	border: none;
+	width: 25px;
+	height: 25px;
+	background: url("../img/pato_icon.png") no-repeat;
+	background-size: 25px;
+	display: block;
+	border-radius: 5px;
+	background-color: #333;
+	top: 70px;
+	left: 138px;
+
+}
+
+#presenca-btn:hover{
+	background-color: #696969; 
+}
+
+
+#reload-btn {
+	position: absolute;
+	border: none;
+	width: 25px;
+	height: 25px;
+	background: url("../img/reload_icon.png") no-repeat;
+	background-size: 25px;
+	display: block;
+	border-radius: 5px;
+	background-color: #333;
+	top: 70px;
+	left: 107px;
+}
+
+#reload-btn:hover{
+	background-color: #696969; 
+}
+
+
+
+/*VOLUME*/
+	
+#player #volume{
+	width: 90px;
+	height: 25px;
+	position: absolute;
+	overflow: hidden;
+	display: block;
+	background-color: #333;
+	border-radius: 5px;
+	top: 70px;
+
+}
+
+#player #volume #barra{
+	width: 68px;
+	height: 8px;
+	position: relative;
+	top: 8px;
+	left: 10px;
+	background: #C9C9C9;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	float: left;
+}
+
+#player #volume #barra .ui-slider-range-min {
+    height: 8px;
+    width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    background: #009500;
+	border: none;
+	outline: none;
+}
+
+#player #volume #barra .ui-slider-handle {
+    width: 12px;
+    height: 12px;
+    background: #FFF;
+    position: absolute;
+    border-radius: 50%;
+  	top: -2px;
+  	margin-left: -8px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+	z-index: 999;
+}
+
+
+/*FIM VOLUME*/
+
+
+/*ALERT*/
+.player-alert {
+	background-image: url("../img/bg_2.png");
+	width: 160px;
+	height: 45px;
+	position: absolute;
+	color: #fff;
+	left: 80px;
+	top: 0px;
+	transition: all 0.5s;
+}
+
+
+#player-alert.minimize-alert .player-alert {
+	top: -45px;
+}
+
+#player-alert.minimize-alert .player {
+	top: -45px;
+}
+
+/*FIM ALERT*/
+
+
+
+
+/*PEDIDOS*/
+.player-pedidos {
+	background-image: url(../img/bg-pedidos.png);
+	width: 320px;
+	height: 130px;
+	position: absolute;
+	float: left;
+	transition: all 0.5s;
+	top: 0px;
+}
+
+
+#player-pedidos.minimize-pedidos .player-pedidos {
+	top: -130px;
+}
+
+#player-pedidos.minimize-pedidos .player {
+	top: -130px;
+}
+
+/*FIM PEDIDOS*/
+
+/*PRESENÇA*/
+.player-presenca {
+	background-image: url(../img/bg-pedidos.png);
+	width: 320px;
+	height: 130px;
+	position: absolute;
+	float: left;
+	transition: all 0.5s;
+	top: 0px;
+}
+
+
+#player-presenca.minimize-presenca .player-presenca {
+	top: -130px;
+}
+
+#player-presenca.minimize-presenca .player {
+	top: -130px;
+}
+
+
+/*FIM PRESENÇA*/
+
+
+
+/*Butoes customizados*/
+
+.hlive-button-green {
+
+	background: url("../img/button-green.png") top left;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	color: #fff;
+	border: 0px;
+	width: 118px;
+	height: 23px;
+}
+
+.hlive-button-green:disabled {
+	background: url("../img/button-green.png") 0px 23px;
+}
+
+.hlive-button-green:hover {
+
+	background: url("../img/button-green.png") 0px 47px;
+
+
+}
+
+.hlive-button-green:active{
+
+	background: url("../img/button-green.png") 0px 23px;
+
+
+}
+
+.hlive-button {
+
+	background: url("../img/button-default.png") top left;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	border: 0px;
+	width: 118px;
+	height: 23px;
+}
+
+
+.hlive-button:hover {
+
+	background: url("../img/button-default.png") 0px 47px;
+
+
+}
+
+.hlive-button:active{
+
+	background: url("../img/button-default.png") 0px 24px;
+
+
+}
+
+/*FIM butoes customozados*/

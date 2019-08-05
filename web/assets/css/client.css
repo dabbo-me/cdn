@@ -1,0 +1,72 @@
+body { margin: 0;padding: 0;background: black; }
+
+.noscript { padding: 10px;background: #c02e2e;text-align: center;color: white;box-shadow: inset 0px 0px 1px 1px #00000040;box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 3px 0 rgba(0,0,0,.16); }
+
+#client { position:absolute; left:0; right:0; top:0; bottom:0; overflow:hidden; height:100%; width:100%; }
+
+#client > #client2 { width: 50%;position: relative;margin: auto;margin-top: 10%;font-family: calibri;color: white;text-align: center; }
+
+#client > #client2 > p > a { color: #ff9900; font-weight: bold; }
+
+#client > #client2 > a { margin-right: 50px; }
+
+#client > #client2 > a:last-child { margin-right: 0; }
+
+.btn { box-shadow: 0 3px 0 1px rgba(0,0,0,.3);background: #FCBC19;border-radius: 5px;border-width: 2px;border: 2px solid #FCEE19;padding: 6px 12px;float: left;cursor: pointer;box-shadow: 0 3px 0 1px rgba(0,0,0,.3); }
+
+.btn.icon { padding-left: 6px;padding-right: 6px; }
+
+.btn.noicon { padding: 3px 12px;font-family: calibri;color: #3d3c3c;font-size: 16px; }
+
+.btn > .icon { background-image: url('../img/togglesize.png');width: 15px;height: 14px; }
+
+.btn:hover { background-color: #ffd400;border-color: #fffd70; }
+
+.btn:active { box-shadow: 0 1px 0 1px rgba(0,0,0,.3);-webkit-transform: translate(0,2px);transform: translate(0,2px); }
+
+#preloader {
+                                                          position: fixed;
+                                                          top:0;
+                                                          left:0;
+                                                          right:0;
+                                                          bottom:0;
+                                                          background:linear-gradient(#61a7e6, #9756dd); 
+                                                          z-index:99; 
+                                                      }
+
+                                                      #status {
+                                                          width:207px;
+                                                          height:72px;
+                                                          position:absolute;
+                                                          left:50%; 
+                                                          top:45%;
+                                                          background-image:url(https://habba.fr/img/Habba_logo_noicon.png);
+                                                          background-repeat:no-repeat;
+                                                          background-position:center;
+                                                          margin:-40px 0 0 -130px; 
+
+                                                              animation:bounce 1s linear infinite;
+
+                                                      }
+                                                      #loader{
+                                                          width: 75px;
+                                                          height: 75px;
+                                                          top:55%;
+                                                          left:46%;
+                                                          border:solid 6px transparent;
+                                                          border-radius: 50%;
+                                                          border-top-color:#fff;
+                                                          border-bottom-color:#fff;
+                                                          animation:rotation 1s linear infinite;
+                                                          position:relative;
+
+                                                      }
+                                                      @keyframes rotation {
+                                                      0%{ transform: rotate(0deg); }
+                                                      100%{ transform: rotate(360deg); }
+                                                      }
+                                                      @keyframes bounce {
+                                                           from {top: 45%;}
+                                                           50%  {top: 47%;}
+                                                           to   {top: 45%;}
+                                                      }

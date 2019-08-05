@@ -1,0 +1,54 @@
+.boton-p-c
+{
+	z-index: 999;
+	border: 2px solid;
+	position: absolute;
+	box-shadow: 0 3px 0 1px rgba(0,0,0,.3);
+	background-color: #ffb900;
+	border: 2px solid #ffea00;
+	border-radius: 4px;
+	color: #000;
+	cursor: pointer;
+	padding: 6px 12px;
+	padding-left: 26px;
+	padding-top: 7px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.mini_h
+{
+	background-image: url('https://i.gyazo.com/45e5a21c9c191eea07f548daf9babad3.png');
+	height: 18px;
+	width: 18px;
+	background-repeat: no-repeat;
+	background-position: 1px 1px;
+	position: absolute;
+	left: 5px;
+	top: 5px;
+}
+
+.boton_full_screen{
+	z-index: 999;
+	border: 2px solid;
+	position: absolute;
+	box-shadow: 0 3px 0 1px rgba(0,0,0,.3);
+	background-color: #ffb900;
+	border: 2px solid #ffea00;
+	border-radius: 4px;
+	color: #000;
+	cursor: pointer;
+	padding: 6px 5px;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 7px;
+	margin-top: 10px;
+	margin-left: 90px;
+}
+
+.full_screen{
+	background-image: url('https://i.gyazo.com/30a9ea38b5a87a000f71b9fbbc048c00.png');
+	display: block;
+	width: 14px;
+	height: 14px;
+}
